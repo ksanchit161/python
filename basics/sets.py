@@ -1,0 +1,12 @@
+s=set()
+s.add(1)
+s.add(2)
+s.add(7)
+s.add(10)
+print(s)
+print(len(s))
+a = set([1, 2, 3, 487, 54])  # Pass a list as a single argument
+m=s.union(a)
+print(m)
+print(s.intersection(a))
+print(s.difference(a))
